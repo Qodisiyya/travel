@@ -1,0 +1,311 @@
+/* .Info__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  .Info__wrapper.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .Info__left img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  .Info__right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .Info__right h2 {
+    color: rgb(12, 12, 12);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 20px;
+    text-align: left;
+  }
+  
+  .Info__right p {
+    color: rgb(12, 12, 12);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: left;
+    width: 370px;
+  }
+  
+  .Info__right button {
+    width: 200px;
+    height: 30px;
+    background: #3737b6;
+    border-radius: 20px;
+  }
+  
+  .btn {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .btn span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+  }
+  
+  .btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn:hover .btn-text-one {
+    top: -100%;
+  }
+  
+  .btn:hover .btn-text-two {
+    top: 50%;
+  }
+   */
+
+
+
+   .Info__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  .Info__wrapper.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .Info__left img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  .Info__right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .Info__right h2 {
+    color: rgb(12, 12, 12);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 20px;
+    text-align: left;
+  }
+  
+  .Info__right p {
+    color: rgb(12, 12, 12);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: left;
+    width: 370px;
+  }
+  
+  .Info__right button {
+    width: 200px;
+    height: 30px;
+    background: #3737b6;
+    border-radius: 20px;
+  }
+  
+  .btn {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .btn span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+  }
+  
+  .btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn:hover .btn-text-one {
+    top: -100%;
+  }
+  
+  .btn:hover .btn-text-two {
+    top: 50%;
+  }
+  
+  /* 300pxdan kichik ekranlar uchun media query */
+  @media (max-width: 300px) {
+    .Info__wrapper.reverse {
+      flex-direction: column;
+    }
+    .Info__wrapper {
+      flex-direction: column;
+      margin-top: 50px;
+    }
+  
+    .Info__left img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .Info__right h2 {
+      font-size: 24px;
+    }
+  
+    .Info__right p {
+      font-size: 14px;
+      width: 100%;
+    }
+  
+    .Info__right button {
+      width: 150px;
+      height: 25px;
+    }
+  
+    .btn {
+      width: 100px;
+      height: 40px;
+      font-size: 10px;
+    }
+  
+    .btn span {
+      font-size: 10px;
+    }
+  }
+  
+  /* 480pxdan kichik ekranlar uchun media query */
+  @media (max-width: 480px) {
+    .Info__wrapper.reverse {
+      flex-direction: column;
+    }
+    .Info__wrapper {
+      flex-direction: column;
+      margin-top: 50px;
+    }
+  
+    .Info__left img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .Info__right h2 {
+      font-size: 28px;
+    }
+  
+    .Info__right p {
+      font-size: 16px;
+      width: 100%;
+    }
+  
+    .Info__right button {
+      width: 170px;
+      height: 28px;
+    }
+  
+    .btn {
+      width: 120px;
+      height: 45px;
+      font-size: 11px;
+    }
+  
+    .btn span {
+      font-size: 11px;
+    }
+  }
+  
+  /* 768pxdan kichik ekranlar uchun media query */
+  @media (max-width: 768px) {
+    .Info__wrapper.reverse {
+      flex-direction: column;
+    }
+    .Info__wrapper {
+      flex-direction: column;
+      margin-top: 70px;
+    }
+  
+    .Info__left img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .Info__right h2 {
+      font-size: 32px;
+    }
+  
+    .Info__right p {
+      font-size: 18px;
+      width: 100%;
+    }
+  
+    .Info__right button {
+      width: 180px;
+      height: 30px;
+    }
+  
+    .btn {
+      width: 130px;
+      height: 48px;
+      font-size: 12px;
+    }
+  
+    .btn span {
+      font-size: 12px;
+    }
+  }
+  

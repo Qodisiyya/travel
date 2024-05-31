@@ -1,0 +1,78 @@
+
+.card1__title{
+  width: 100%;
+    height: 250px;
+    color: #00000057;
+    background: url(..//..//..//..//..//../images/Chunkurchak.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.card1__title h2{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 3px #000;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.card1__left{
+    width: 800px;
+
+}
+.card1__left p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.card1__left img{
+    width: 800px;
+    margin-top: 20px;
+}
+.card1__left h2{
+    font-size: 30px;
+    margin-top: 30px;
+    color:rgb(0, 0, 0);
+}
+.chunkMap{
+    margin-top: 30px;
+}
+
+.card1__right h2{
+    font-size: 30px;
+    margin-top: 20px;
+    color:rgb(0, 0, 0);
+}
+.interline{
+    height: 1px;
+    background-color: tomato;
+}
+.howline{
+    height: 1px;
+    width: 530px;
+    background-color: tomato;
+}
+.mapline{
+    width: 300px;
+    height: 1px;
+    background-color: tomato;
+}
+.interesting{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+.card1__input{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+}
+.inputline{
+   width: 500px;
+   margin-top: 10px;
+   height: 0.1px; 
+}
